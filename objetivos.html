@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<HTML>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #2c3e50;
+        }
+
+        /* Fondo degradado animado */
+        .fondo-cambiante {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(-45deg, #f37377, #df8268, #a1c4fd, #9b89ff);
+            background-size: 400% 400%;
+            animation: cambiar 12s ease infinite;
+            z-index: -1; /* Para que quede detrás del contenido */
+        }
+
+        @keyframes cambiar {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+            color: #34495e;
+            text-shadow: 2px 2px 5px #ffffff;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        img {
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        }
+
+        p {
+            text-align: justify;
+            font-size: 16px;
+            background-color: rgba(255,255,255,0.7);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</HEAD>
+    <BODY>
+         <div class="movimiento">
+        <h1><MARQUEE id="miMarquesina">OBJETIVOS</MARQUEE></h1>
+        </div>
+            <div class="fondo-cambiante"></div>
+    <a href="Bondades de la IA en su estudio.html"><button>REGRESAR</button></a>
+    <a href="en que ayuda.html"><button>SIGUIENTE</button></a>
+    <CENTER><img src="./IA3.png" height="200" width="200"> </img></CENTER>
+    <p><B><I>La IA tiene diversos objetivos en el estudios como por ejemplo:</I></B></p>
+    <p><B><U>*Personalidad en el aprendizaje: Sirve para adaptar el contenido según el nivel, ritmo y estilo de cada estudiante. Tambien recomendar temas, ejercicios o materiales adecuados.</U></B></p>
+    <p><B><U>*Mejorar la comprensión de temas dificiles: Sirve para explicar conceptos complejos de forma simple y con ejemplos personalizados. Pero tambien ofrece diferentes métodos de explicación (textos, imagenes, pasos, resúmenes).</U></B></p>
+    <p><B><U>*Facilita el acceso a la información: Busca y organiza datos de manera rápida. Resume textos largos y filtra información relevante.</U></B></p>
+    <P><B><U>*Apoya la resolución de ejercicios: Ayuda paso a paso en matemátematicas, fisica, programación y otras materias. Ofrece retroalimentación inmediata.</U></B></P>
+    <P><B><U>*Optimiza el tiempo de estudio: Crea planes de estudio, recordatorios y calendarios. Sugiere prioridades y divide temas en partes manejables.</U></B></P>
+    <P><B><U>*Fomenta el aprendizaje aútonomo: Propone actividades, ejercicios y preguntas de autoevaluación. Acompaña al estudiante sin necesidad de un profesor presente.</U></B></P>
+    <P><B><U>*Dectecta áreas de oportunidad: Identifica errores frecuentes. Analiza patrones de aprendizaje para reforzar puntos débiles.</U></B></P>
+    <P><B><U>*Motiva al estudiante: Usa gamaficación: Puntos, retos, niveles y badges. Crea experiencias de estudio más atractivas y dinámicas.</U></B></P>
+    <P><B><U>*Mejora habilidades digitales: Impulsa el uso de tecnologías modernas. Aprende herramientas digitale útiles</U></B></P>
+    <P><B><U>*Crea ambientes de estudio eficientes: Se usan asistentes virtuales que explican, corrigen y guían. Usa plataformas que organizan datos, tareas y materiales.</U></B></P>
+    </BODY>
+</HTML>
